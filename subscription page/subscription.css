@@ -1,0 +1,99 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    margin: 0;
+  }
+  @media only screen and (max-width: 600px) 
+  {
+    .wrapper {
+      display: block;
+      box-sizing: border-box;
+      border-radius: 1.5rem;
+      margin-top: 20%;
+      margin-bottom: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
+      box-shadow: 2px 2px 20px grey;
+    }
+  }
+  @media only screen and (min-width: 768px) 
+  {
+    .wrapper {
+      display: block;
+      box-sizing: border-box;
+      border-radius: 1.5rem;
+      margin-top: 15%;
+      margin-bottom: 15%;
+      margin-left: 10%;
+      margin-right: 10%;
+      box-shadow: 2px 2px 20px grey;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .wrapper {
+      display: block;
+      box-sizing: border-box;
+      border-radius: 1.5rem;
+      margin-top: 5%;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-bottom: 5%;
+	    box-shadow: 2px 2px 20px grey;
+    }
+  }
+  .header {
+    background-color: white;
+	border-top: 2px solid white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+  }
+  .content {
+    padding: 3%;
+  }
+  #heading {
+    font-size: 20px;
+    color: hsl(179, 62%, 43%);
+  }
+  #subheading {
+      font-size: 16px;
+      color: hsl(71, 73%, 54%);
+  }
+  p.header-para {
+      color: hsl(200, 17%, 63%);
+  }
+
+  .bottom {
+      color: white;
+      display: flex;
+  }
+  .box-left {
+      padding: 3%;
+      background-color: hsl(179, 62%, 43%);
+      width: 50%;
+	  border-bottom: 2px solid hsl(179, 62%, 43%);
+	  border-bottom-left-radius: 8px;
+  }
+  .price-teller {
+      display: flex;
+  }
+  .price-teller p {
+      padding-top: 2%;
+      padding-left: 2%;
+  }
+  #sign-up {
+      display: block;
+      margin-left: 10%;
+	  margin-right: 10%;
+	  padding-top: 5%;
+	  padding-bottom: 5%;
+	  padding-left: 25%;
+      background-color: hsl(71, 73%, 54%);
+      color: white;
+      border-radius: 5px;
+  }
+  .box-right {
+      padding: 3%;
+      background-color: hsl(179, 60%, 55%);
+      width: 50%;
+	  border-bottom: 2px solid hsl(179, 60%, 55%);
+	  border-bottom-right-radius: 8px;
+  }
